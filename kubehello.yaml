@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubehello
+spec:
+  containers:
+  - image: tianyuyang/kubelearn
+    name: kubehelloworld
+    ports:
+    - containerPort: 8080
+      protocol: TCP
