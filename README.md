@@ -1,8 +1,8 @@
-# k8s-hello-go
-Demo app for learning k8s
+# k8s-learning
+Demo apps and tutorials for learning k8s
 
 ## Dev Guide
-The docker image is pushed to Docker Hub as `tianyuyang/kubelearn`
+Docker images are pushed to Docker Hub as `tianyuyang/<image name>`
 
 ## Reference:
 - https://cloud.google.com/kubernetes-engine/docs/quickstart#code_review
