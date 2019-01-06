@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: kubehello-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: kubeworld
+  template:
+    metadata:
+      labels:
+        app: kubeworld
+    spec:
+      containers:
+      - name: kubehelloworld-rs
+        image: tianyuyang/kubelearn
